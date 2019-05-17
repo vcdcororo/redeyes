@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#bg{
+    width: 3000px;
+    height: 18000px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+
+/* 001 ~ 010 */
+
+._001 {position: absolute; top: 8000px; left: 1900px; width: 1300px; z-index: 50;}
+._002 {position: absolute; top: 5000px; left: 2200px; width: 1000px; z-index: 2;}
+._003 {position: absolute; top: 14000px; left: 2200px; height: 700px; z-index: 1;}
+._004 {position: absolute; top: 13700px; left: 2200px; width: 900px; z-index: 2; mix-blend-mode: color;}
+._005 {position: absolute; top: 50px; left: 2550px; width: 600px; z-index: 1;}
+._006 {position: absolute; top: 3000px; left: -30px; height: 1000px; z-index: 1;}
+._007 {position: absolute; top: 1700px; left: -1000px; width: 2000px; height: 1800px; z-index: 70;}
+._008 {position: absolute; top: 400px; left: 2300px; width: 900px; height: 600px; z-index: 90;}
+._009 {position: absolute; top: 2980px; left: 2000px; width: 780px; z-index: 10;}
+._010 {position: absolute; top: 10000px; left: 2000px; width: 1400px; z-index: 10;}
+
+/* 011 ~ 020 */
+
+._011 {position: absolute; top: 4700px; left: 2000px; z-index: 30;}
+._012 {position: absolute; top: 13500px; left: 1100px; width: 600px; height: 600px; z-index: 100;}
+._013 {position: absolute; top: 5400px; left: 1700px; width: 1500px; z-index: 100;}
+._014 {position: absolute; top: 14000px; left: 700px; width: 1200px; z-index: 1;}
+._015 {position: absolute; top: 12800px; left: -200px; width: 1000px; z-index: 1  ;}
+._016 {position: absolute; top: 13900px; left: -400px; z-index: 50;}
+._017 {position: absolute; top: 1000px; left: 20px; width: 1900px; z-index: 50;}
+._018 {position: absolute; top: 13900px; left: 2000px; width: 400px; z-index: 100;}
+._019 {position: absolute; top: 12900px; left: 200px; width: 1500px; z-index: 1;}
+._020 {position: absolute; top: 11000px; left: -10px; width: 600px; height: 2000px; z-index: 1;}
+
+/* 021 ~ 030 */
+
+._021 {position: absolute; top: 5000px; left: 1000px; width: 3000px; z-index: 11;}
+._022 {position: absolute; top: 15500px; left: 900px; width: 3000px; z-index: 50;}
+._023 {position: absolute; top: 16000px; left: -200px; width: 3000px; z-index: 10;}
+._024 {position: absolute; top: 16000px; left: 200px; width: 1000px; z-index: 4;}
+._025 {position: absolute; top: 6300px; left: 2000px; width: 800px; height: 800px; z-index: 1;}
+._026 {position: absolute; top: 13px; left: 1200px; width: 1000px; height: 1000px; z-index: 2;}
+._027 {position: absolute; top: 2350px; left: 800px; z-index: 3;}
+._028 {position: absolute; top: 13000px; left: 2000px; width: 1000px; z-index: 1;}
+._029 {position: absolute; top: 16300px; left: 500px; width: 1000px; z-index: 5;}
+._030 {position: absolute; top: 9500px; left: 1800px; width: 1000px; z-index: 5;}
+
+/* 031 ~ 040 */
+
+._031 {position: absolute; top: 15900px; left: 1200px; width: 1000px; height: ; z-index: 100;}
+._032 {position: absolute; top: 15000px; left: 1600px; height: 1400px; z-index: 100;}
+._033 {position: absolute; top: 7800px; left: 1480px; width: 1000px; height: 1050px; z-index: 1;}
+._034 {position: absolute; top: 9000px; left: 2500px; z-index: 100;}
+._035 {position: absolute; top: 2350px; left: 2200px; height: 800px; z-index: 50;}
+._036 {position: absolute; top: 7700px; left: 2300px; height: 300px; z-index: 3;}
+._037 {position: absolute; top: 14600px; left: -20px; width: 800px; z-index: 1;}
+._038 {position: absolute; top: 9100px; left: 1800px; height: 700px; z-index: 100;}
+._039 {position: absolute; top: 15600px; left: 10px; width: 300px; height: 600px; z-index: 2;}
+._040 {position: absolute; top: 7000px; left: 400px; width: 400px; height: 400px; z-index: 100;}
+
+/* 041 ~ 050 */
+
+._041 {position: absolute; top: 12000px; left: 2600px; height: 800px; z-index: 3;}
+._042 {position: absolute; top: 6900px; left: 400px; height: 1000px; z-index: 2;}
+._043 {position: absolute; top: 9600px; left: 900px; width: 700px; z-index: 10;}
+._044 {position: absolute; top: 8900px; left: 900px; z-index: 2;}
+._045 {position: absolute; top: 4000px; left: 1000px; z-index: 100; mix-blend-mode: darken;}
+._046 {position: absolute; top: 8800px; left: 770px; z-index: 2;}
+._047 {position: absolute; top: 14000px; z-index: 2;}
+._048 {position: absolute; top: 9000px; z-index: 2;}
+._049 {position: absolute; top: 15000px; left: 1900px; z-index: 2;}
+._050 {position: absolute; top: 9900px; left: 400px; height: 700px; z-index: 5;}
+
+/* 051 ~ 060 */
+
+._051 {position: absolute; top: 15800px; left: 700px; width: 800px; height: 900px; z-index: 2;}
+._052 {position: absolute; top: 8300px; left: 1100px; width: 700px; height: 700px; z-index: 2; mix-blend-mode: overlay;}
+._053 {position: absolute; top: 800px; left: 1000px; width: 400px; z-index: 60;}
+._054 {position: absolute; top: 6000px; left: 500px; width: 800px; height: 800px; z-index: 1;}
+._055 {position: absolute; top: 120px; left: 130px; width: 800px; z-index: 100;}
+._056 {position: absolute; top: 4000px; left: 1200px; z-index: 1; mix-blend-mode: hard-light;}
+._057 {position: absolute; top: 1200px; z-index: 1; mix-blend-mode: difference;}
+._058 {position: absolute; top: 4600px; left: 500px; width: 700px; z-index: 1;}
+._059 {position: absolute; top: 7000px; left: 400px; width: 700px; z-index: 10;}
+._060 {position: absolute; top: 6700px; left: 1000px; width: 1600px; z-index: 1;}
+
+/* 061 ~ 070 */
+
+._061 {position: absolute; top: 5600px; left: 1000px; height: 900px; z-index: 100;}
+._062 {position: absolute; top: 3000px; left: 920px; height: 1990px; z-index: 3;}
+._063 {position: absolute; top: 4600px; left: 1200px; width: 700px; height: 700px; z-index: 2;}
+._064 {position: absolute; top: 4000px; left: 200px; height: 1800px; z-index: 20;}
+._065 {position: absolute; top: 5300px; left: 700px; width: 600px; z-index: 100;}
+._066 {position: absolute; top: 7400px; left: 300px; z-index: 100;}
+._067 {position: absolute; top: 11000px; left: 400px; width: 800px; z-index: 100;}
+._068 {position: absolute; top: 17000px; left: 300px; z-index: 100;}
+._069 {position: absolute; top: 9000px; height: 1000px; z-index: 2; mix-blend-mode: color-dodge;}
+._070 {position: absolute; top: 5500px; width: 1000px; z-index: 2;}
+
+/* 071 ~ 080 */
+
+._071 {position: absolute; top: 5000px; left: 1200px; z-index: 2;}
+._072 {position: absolute; top: 5000px; left: 200px; height: 1200px; z-index: 1; mix-blend-mode: color-dodge;}
+._073 {position: absolute; top: 8700px; left: 1400px; width: 800px; height: 800px; z-index: 90;}
+._074 {position: absolute; top: 5555px; height: 2000px; z-index: 1; mix-blend-mode: color;}
+._075 {position: absolute; top: 8999px; left: 700px; z-index: 2;}
+._076 {position: absolute; top: 3000px; left: 800px; z-index: 2;}
+._077 {position: absolute; top: 4700px; left: 600px; width: 400px; height: 900px; z-index: 1;}
+._078 {position: absolute; top: 4200px; left: 700px; z-index: 2;}
+._079 {position: absolute; top: 1480px; left: 1100px; z-index: 100;}
+._080 {position: absolute; top: 10500px; left: 300px; z-index: 2;}
+
+/* 081 ~ 090 */
+
+._081 {position: absolute; top: 9000px; left: 800px; z-index: 2;}
+._082 {position: absolute; top: 7800px; left: 500px; width: 1000px; height: 1000px; z-index: 100;}
+._083 {position: absolute; top: 11500px; left: -500px; width: 4000px; z-index: 5;}
+._084 {position: absolute; top: 12500px; left: 1800px; height: 900px; z-index:  2;}
+._085 {position: absolute; top: 8000px; left: 270px; width: 800px; z-index: 80;}
+._086 {position: absolute; top: 900px; z-index: 2;}
+._087 {position: absolute; top: 9300px; left: 1300px; width: 800px; height: 1000px; z-index: 90;}
+._088 {position: absolute; top: 10000px; z-index: 2;}
+._089 {position: absolute; top: 14000px; width: 3000px; z-index: 2;}
+._090 {position: absolute; top: 3000px; left: 800px; width: 600px; z-index: 1;}
+
+/* 091 ~ 100 */
+
+._091 {position: absolute; top: 2500px; left: 350px; width: 600px; height: 600px; z-index: 2;}
+._092 {position: absolute; top: 900px; z-index: 2;}
+._093 {position: absolute; top: 5900px; width: 800px; height: 500px; z-index: 2;}
+._094 {position: absolute; top: 8300px; width: 800px; height: 800px; z-index: 100;}
+._095 {position: absolute; top: 900px; left: 1px; z-index: 2;}
+._096 {position: absolute; top: 13000px; width: 900px; height: 900px; z-index: 2;}
+._097 {position: absolute; top: 3000px; left: 500px; width: 800px; height: 800px; z-index: 2;}
+._098 {position: absolute; top: 500px; left: 500px; z-index: 2;}
+._099 {position: absolute; top: 6000px; left: 800px; width: 1000px; height: 1300px; z-index: 2;}
+._100 {position: absolute; top: 4800px; width: 1000px; height: 1000px; z-index: 2;}
+
+/* 101 ~ 110 */
+
+._101 {position: absolute; top: 400px; left: 300px; width: 800px; z-index: 30; mix-blend-mode: hard-light   ;}
+._102 {position: absolute; top: 1000px; left: 800px; width: 1300px; z-index: 2;}
+._103 {position: absolute; top: 4000px; left: 100px; width: 800px; z-index: 70;}
+._104 {position: absolute; top: 260px; left: 200px; width: 1500px; height: 1500px; z-index: 2; mix-blend-mode: exclusion;}
+._105 {position: absolute; top: 1500px; left: 500px; height: 300px; z-index: 10;}
+._106 {position: absolute; top: 14000px; left: 90px; width: 1000px; z-index: 1;}
+._107 {position: absolute; top: 3500px; left: 500px; width: 800px; height: 800px; z-index: 100;}
+._108 {position: absolute; top: 9600px; left: 700px; width: 1800px; z-index: 100;}
+._109 {position: absolute; top: 3750px; z-index: 2; mix-blend-mode: color-burn;}
+._110 {position: absolute; top: 4000px; left: 250px; z-index: 2; mix-blend-mode: screen;}
+
+/* 111 ~ 120 */
+
+._111 {position: absolute; top: 4250px; left: 500px; z-index: 2; mix-blend-mode: screen;}
+._112 {position: absolute; top: 3000px; left: -200px; z-index: 100;}
+._113 {position: absolute; top: 100px; left: 1500px; z-index: 2;}
+._114 {position: absolute; top: 1500px; left: 1800px; width: 1000px; height: 1000px; z-index: 2;}
+._115 {position: absolute; top: 6555px; z-index: 2;}
+._116 {position: absolute; top: 8000px; z-index: 2;}
+._117 {position: absolute; top: 400px; left: 1000px; width: 600px; height: 1200px; z-index: 2;}
+._118 {position: absolute; top: 1400px; left: 70px; z-index: 100;}
+._119 {position: absolute; top: 6800px; left: 1400px; width: 1000px; z-index: 2;}
+._120 {position: absolute; top: 500px; left: 700px; width: 1200px; height: 500px; z-index: 100;}
+
+/* 121 ~ 130 */
+
+._121 {position: absolute; top: 3000px; left: 700px; width: 600px; z-index: 50;}
+._122 {position: absolute; top: 1900px; left: -300px; width: 1000px; height: 800px; z-index: 2;}
+._123 {position: absolute; top: 11000px; left: 600px; width: 1200px; z-index: 1; mix-blend-mode: darken;}
+._124 {position: absolute; top: 2700px; z-index: 2;}
+._125 {position: absolute; top: 11600px; left: 40px; width: 200px; z-index: 2;}
+._126 {position: absolute; top: 10800px; left: 1500px; width: 1700px; z-index: 100; mix-blend-mode: color-burn;}
+._127 {position: absolute; top: 3000px; left: 2400px; width: 600px; z-index: 100;}
+._128 {position: absolute; top: 100px; left: 2000px; width: 800px; z-index: 2;}
+._129 {position: absolute; top: 9600px; left: -600px; width: 2000px; z-index: 1;}
+._130 {position: absolute; top: 16000px; left: -10px; height: 800px; z-index: 1;}
+
+/* 131 ~ 140 */
+
+._131 {position: absolute; top: 5500px; left: 350px; z-index: 2; mix-blend-mode: exclusion;}
+._132 {position: absolute; top: 7500px; left: 1200px; width: 600px; z-index: 2;}
+._133 {position: absolute; top: 6800px; left: 300px; z-index: 2;}
+._134 {position: absolute; top: 330px; left: 1100px; width: 200px; height: 200px; z-index: 10;}
+._135 {position: absolute; top: 1500px; left: 290px; width: 1300px; z-index: 2;}
+._136 {position: absolute; top: 3600px; left: 1700px; width: 1400px; z-index: 100;}
+._137 {position: absolute; top: 12000px; left: -500px; width: 5000px; z-index: 2;}
+._138 {position: absolute; top: 4600px; left: 2100px; width: 1200px; z-index: 100;}
+._139 {position: absolute; top: 500px; left: 1800px; width: 900px; z-index: 90;}
+._140 {position: absolute; top: 400px; left: 800px; height: 2800px; z-index: 1;}
+
+/* 141 ~ 150 */
+
+._141 {position: absolute; top: 2900px; left: 1000px; width: 1000px; height: 1000px; z-index: 1;}
+._142 {position: absolute; top: 2400px; left: 500px; width: 1300px; height: 1000px; z-index: 2;}
+._143 {position: absolute; top: 3600px; left: 1800px; width: 700px; z-index: 20;}
+._144 {position: absolute; top: 8123px; left: -121px; width: 1231px; z-index: 2;}
+._145 {position: absolute; top: 12232px; left: 1230px; z-index: 100;}
+._146 {position: absolute; top: 14000px; left: 400px; width: 2000px; height: 2000px; z-index: 7; mix-blend-mode: saturation;}
+._147 {position: absolute; top: 12000px; left: 400px; width: 800px; height: 800px; z-index: 100; mix-blend-mode: difference;}
+._148 {position: absolute; top: 13500px; left: 1700px; width: 1000px; height: 800px; z-index: 2;}
+._149 {position: absolute; top: 12800px; left: 300px; width: 800px; height: 600px; z-index: 90;}
+._150 {position: absolute; top: 800px; left: 500px; width: 900px; height: 900px; z-index: 100;}

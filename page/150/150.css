@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: black;
+}
+
+._150 {
+    width: 10%;
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    top: 35%;
+    bottom: 35%;
+}
