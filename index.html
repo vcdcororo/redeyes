@@ -11,16 +11,17 @@
   </head>
   <body>
     <!--배경 음악-->
-    <embed
+    <audio 
+      id ="myAudio"
       src="audio/red_eyes.mp3"
-      autostart="true"
+      autostart="false"
       loop="true"
-      hidden="true"
-    />
+      hidden="true">
+    </audio>
 
     <!--배경화면 전환-->
     <input type="checkbox" id="menuicon" />
-    <label for="menuicon">
+    <label id="playIcon" for="menuicon">
       <span></span>
       <span></span>
       <span></span>
@@ -422,6 +423,16 @@
     </div>
 
     <script>
+      //오디오 관련
+      const myAudio = document.getElementById("myAudio");
+      const playIcon = document.getElementById("playIcon");
+
+      console.log(myAudio)
+      playIcon.addEventListener('click', ()=>{
+        myAudio.play();
+      }, { once : true});
+
+      //이미지 관련
       const pxToPercent = (px, pos) => {
         return (px * 100) / pos;
       };
